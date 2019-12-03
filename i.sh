@@ -20,6 +20,7 @@ pkg install php -y
 pkg install ruby -y
 gem install lolcat
 pkg install python2
+pkg install curl -y
 pip install mechanize
 pip install requests
 pip install colorama
